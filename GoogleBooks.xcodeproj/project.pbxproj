@@ -50,6 +50,8 @@
 		95069E3B1F702E8A009CC90D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95069E3A1F702E8A009CC90D /* AppDelegate.swift */; };
 		95069E421F702E8A009CC90D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95069E411F702E8A009CC90D /* Assets.xcassets */; };
 		95069E501F702F71009CC90D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95069E4F1F702F71009CC90D /* LaunchScreen.storyboard */; };
+		952F293E1FB58DAC00F9799D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 952F293C1FB58DAC00F9799D /* LICENSE */; };
+		952F293F1FB58DAC00F9799D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 952F293D1FB58DAC00F9799D /* README.md */; };
 		957F64551FB3C21700FD9CD4 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957F64541FB3C21700FD9CD4 /* LoaderView.swift */; };
 		A4AFDEAA298B52BCEA17E335 /* Pods_GoogleBooks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9EAE18E7676CFEFF0FD71A /* Pods_GoogleBooks.framework */; };
 /* End PBXBuildFile section */
@@ -103,6 +105,8 @@
 		95069E411F702E8A009CC90D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = GoogleBooks/Assets/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		95069E461F702E8A009CC90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95069E4F1F702F71009CC90D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		952F293C1FB58DAC00F9799D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		952F293D1FB58DAC00F9799D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		957F64541FB3C21700FD9CD4 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -288,6 +292,8 @@
 		95069E2E1F702E8A009CC90D = {
 			isa = PBXGroup;
 			children = (
+				952F293C1FB58DAC00F9799D /* LICENSE */,
+				952F293D1FB58DAC00F9799D /* README.md */,
 				95069E391F702E8A009CC90D /* GoogleBooks */,
 				95069E381F702E8A009CC90D /* Products */,
 				AEE108F6BDC7FE7A4A044C60 /* Pods */,
@@ -469,7 +475,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				952F293E1FB58DAC00F9799D /* LICENSE in Resources */,
 				95069E501F702F71009CC90D /* LaunchScreen.storyboard in Resources */,
+				952F293F1FB58DAC00F9799D /* README.md in Resources */,
 				95069E421F702E8A009CC90D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
